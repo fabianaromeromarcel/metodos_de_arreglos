@@ -83,6 +83,14 @@ Objetivo
 
 El objetivo del proyecto es practicar el manejo de arreglos en JavaScript y aplicar sus principales métodos en una funcionalidad interactiva, utilizando el DOM para mostrar y actualizar la información en la página.
 
+<<<<<<< HEAD
 Proyecto desplegado
 https://fabianaromeromarcel.github.io/metodos_de_arreglos/
 
+=======
+Cómo ejecutar
+
+1. Clona o descarga el repositorio.
+2. Abre la carpeta del proyecto.
+3. Abre index.html en un navegador web.
+>>>>>>> 43ef7a1 (readme)
