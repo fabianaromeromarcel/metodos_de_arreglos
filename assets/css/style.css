@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Input */
+
+.input {
+    width: 100%;
+}
+
+p {
+    margin: 4px 0;
+}
+
+#InputTarea {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+#NuevaTarea {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Información */
+
+#info {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+#ConteoDeTareas {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.tarea {
+    display: flex;
+}
+
+/* Lista */
+
+#GestionDeTareas {
+    width: 100%;
+}
+
+#encabezados {
+    display: flex;
+    gap: 4px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#gtarea {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.id {
+    width: 40px;
+    flex-shrink: 0;
+}
+
+.descripcion {
+    width: 200px;
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+button {
+    flex-shrink: 0;
+}
+
+/* Pantallas pequeñas */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 30px 16px;
+        justify-content: flex-start;
+    }
+
+    .contenido {
+        width: 100%;
+    }
+
+    #InputTarea {
+        width: 100%;
+    }
+
+    #info {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #ConteoDeTareas {
+        width: 100%;
+    }
+
+    #info > div:last-child {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: auto;
+    }
+}
